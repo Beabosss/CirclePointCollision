@@ -1,6 +1,8 @@
 function setup() {
-  createCanvas(700, 700);
+  createCanvas(window.innerHeight, window.innerWidth);
 }
+
+window.addEventListener("resize", setup);
 
 function collidePointCircle(px, py, cx, cy, d){
   let r = d/2
