@@ -1,5 +1,5 @@
 function setup() {
-  createCanvas(window.innerHeight, window.innerWidth);
+  createCanvas(window.innerWidth, window.innerHeight);
 }
 
 window.addEventListener("resize", setup);
